@@ -1,0 +1,101 @@
+/*index.css*/
+/*add background picture to page1*/
+#page1{
+    background: url(img.png);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    color: #000000;
+    text-align: center;
+    font-family: Lobster, serif;
+}
+
+/*error message*/
+#error{
+    background-color: #f7f7f7;
+    width: 50%;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+/*read word*/
+#result{
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 5% 0;
+}
+
+/* Hide the number input */
+.full-width-slider input {
+    display: none !important;
+}
+.full-width-slider .ui-slider-track {
+    margin-left: 15px;
+}
+div.header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#start{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 20px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #000000;
+    transition: background 0.5s;   
+   }
+   #start:hover{
+       background: #ff004f;
+   }
+   #new{
+    border: 1px solid #ff004f;
+    padding: 20px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #000000;
+    transition: background 0.5s   
+   }
+   #new:hover{
+       background: #ff004f;
+   }
+   #resume{
+   border: 1px solid #ff004f;
+    padding: 20px 50px;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #000000;
+    transition: background 0.5s
+   }
+   #resume:hover{
+    background: #ff004f;
+}
+#pause{
+    border: 1px solid #ff004f;
+     padding: 20px 50px;
+     border-radius: 6px;
+     text-decoration: none;
+     color: #000000;
+     transition: background 0.5s
+    }
+    #pause:hover{
+     background: #ff004f;
+ }
+ #btn{
+    display:block;
+    margin: top 1px;
+    margin-right: 2px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    background: #ff004f;
+    padding: 14px 50px;
+    border-radius: 40px;
+    text-decoration: none;
+    color: #fff;
+    transition: background 0.5s;   
+   }
+   
